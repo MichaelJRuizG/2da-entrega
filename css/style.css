@@ -183,12 +183,14 @@ header{
     margin-top: 15px;
     margin-bottom: 40px;
     text-align: left;
+    font-weight: bold;
 }
-.titledetailing{    font-size: 1.5em;
+
+.titledetailing{    
+    font-size: 100%;
     color: rgba(245, 244, 244, 0.99);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 
 .pricedetailing{
     display: flex;
@@ -199,6 +201,10 @@ header{
     justify-content: center;
     margin: 10px 40%;
     font-weight: bold;
+}
+
+.divflex span{
+    margin: 5%;
 }
 
 .contentdetailing{
@@ -289,6 +295,7 @@ header{
   display: grid;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .boton{
