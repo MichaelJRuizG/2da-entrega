@@ -31,6 +31,20 @@ header{
     align-items: center;
 }
 
+.links-nav{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+    line-height: normal;
+    color: rgb(205, 204, 204);
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    transition: 0.3s;
+    width: max-content;
+}
+
 .links-nav:hover{
     transform: scale(1.09);
     background: rgb(178, 71, 71);
